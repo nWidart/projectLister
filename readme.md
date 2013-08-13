@@ -4,14 +4,14 @@ Project lister is a package to display a list of your current repositories on Gi
 
 ## Installation
 
-Add `nwidart/projectLister` as a requirement to `composer.json`:
+Add `nwidart/ProjectLister` as a requirement to `composer.json`:
 
 ```
 {
     ...
     "require": {
         ...
-        "nwidart/projectLister": "dev-master"
+        "nwidart/ProjectLister": "dev-master"
     },
 }
 ```
@@ -29,7 +29,7 @@ Add `'Nwidart\ProjectLister\ProjectListerServiceProvider',` to your `app/config/
 Publish package config:
 
 ```
-$ php artisan config:publish nwidart/projectLister
+$ php artisan config:publish nwidart/ProjectLister
 ```
 
 
