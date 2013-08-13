@@ -11,7 +11,7 @@ Add `nwidart/ProjectLister` as a requirement to `composer.json`:
     ...
     "require": {
         ...
-        "nwidart/ProjectLister": "dev-master"
+        "nwidart/project-lister": "dev-master"
     },
 }
 ```
@@ -29,7 +29,7 @@ Add `'Nwidart\ProjectLister\ProjectListerServiceProvider',` to your `app/config/
 Publish package config:
 
 ```
-$ php artisan config:publish nwidart/ProjectLister
+$ php artisan config:publish nwidart/project-lister
 ```
 
 
