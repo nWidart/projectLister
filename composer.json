@@ -1,0 +1,21 @@
+{
+    "name": "nwidart/project-lister",
+    "description": "Package to list repositories on Github, Bitbucket and Sourceforge.",
+    "keywords": ["projectLister", "laravel", "github", "bitbucket", "sourceforge", "repositories"],
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Nwidart\\ProjectLister": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
