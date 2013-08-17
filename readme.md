@@ -1,6 +1,7 @@
+[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/nWidart/projectLister/badges/quality-score.png?s=576668782c73b2ab5d292c3d31d9ef43316f1ec0)](https://scrutinizer-ci.com/g/nWidart/projectLister/)
 # Project Lister
 
-Project lister is a package to display a list of your current repositories on Github, Bitbucket or Sourceforge. 
+Project lister is a package to display a list of your current repositories on Github, Bitbucket or Sourceforge.
 
 ## Installation
 
@@ -55,7 +56,7 @@ In the `app/config/nwidart/projectLister/config.php` config file:
 To show the projects list simple use this in one of your views:
 
     {{ ProjectLister::show(); }}
-    
+
 ## Credits
 
 This is mainly a port of the Wordpress Plugin [github-bitbucket-project-lister](http://wordpress.org/plugins/github-bitbucket-project-lister/), to be used in Laravel.
